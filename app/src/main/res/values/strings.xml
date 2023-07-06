@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Intellectsoft</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User 101</string>
+    <string name="nav_header_subtitle">user@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_calendar">This is a Calendar Frag</string>
+    <string name="hello_games">This is a Games Frag</string>
+    <string name="hello_share">This is a Share Frag</string>
+    <string name="hello_contact">This is a Contact Frag</string>
+    <string name="hello_search">This is a Search Frag</string>
+
+    <string name="menu_tech">TECHNOLOGIES</string>
+    <string name="menu_services">SERVICES</string>
+    <string name="menu_industries">INDUSTRIES</string>
+    <string name="menu_clients">CLIENTS</string>
+    <string name="menu_company">COMPANY</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="alreadyAccount">Already have an account?</string>
+    <string name="intellectsoft_logo">Intellectsoft Logo</string>
+    <string name="log_out">Log Out</string>
+</resources>

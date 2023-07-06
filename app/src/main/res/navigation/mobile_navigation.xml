@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tech">
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_home"-->
+<!--        android:name="com.trev.mynavigation.ui.home.HomeFragment"-->
+<!--        android:label="@string/menu_home"-->
+<!--        tools:layout="@layout/fragment_home" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.trev.mynavigation.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.trev.mynavigation.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+
+    <fragment
+        android:id="@+id/nav_tech"
+        android:name="com.trev.mynavigation.Calendar"
+        android:label="@string/menu_tech"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.trev.mynavigation.Games"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_games" />
+
+    <fragment
+        android:id="@+id/nav_industries"
+        android:name="com.trev.mynavigation.ShareFragment"
+        android:label="@string/menu_industries"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_clients"
+        android:name="com.trev.mynavigation.ContactFragment"
+        android:label="@string/menu_clients"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_company"
+        android:name="com.trev.mynavigation.SearchFragment"
+        android:label="@string/menu_company"
+        tools:layout="@layout/fragment_search" />
+</navigation>

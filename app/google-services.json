@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "910383503820",
+    "project_id": "intellectsoft-2d981",
+    "storage_bucket": "intellectsoft-2d981.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910383503820:android:930b83fad12cb86e556569",
+        "android_client_info": {
+          "package_name": "com.trev.mynavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910383503820-g0h6hmqdr3tvj7f7tlbfirjun3652hmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCNbuqnA96aWGDxGBLJIvJr3tldjWcDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910383503820-g0h6hmqdr3tvj7f7tlbfirjun3652hmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

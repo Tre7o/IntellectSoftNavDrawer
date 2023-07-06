@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tech"
+            android:icon="@drawable/baseline_computer_24"
+            android:title="@string/menu_tech"
+            android:fontFamily="@font/montserrat_bold"/>
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/baseline_design_services_24"
+            android:title="@string/menu_services"
+            android:fontFamily="@font/montserrat_bold"/>
+        <item
+            android:id="@+id/nav_industries"
+            android:icon="@drawable/baseline_build_24"
+            android:title="@string/menu_industries"
+            android:fontFamily="@font/montserrat_bold"/>
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/baseline_people_24"
+            android:title="@string/menu_clients"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <item
+            android:id="@+id/nav_company"
+            android:icon="@drawable/baseline_account_balance_24"
+            android:title="@string/menu_company"
+            android:fontFamily="@font/montserrat_bold"/>
+    </group>
+    <!-- For adding another group -->
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+
+</menu>
+
